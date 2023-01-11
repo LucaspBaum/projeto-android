@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #c5ebd6;
+}
+header {
+    margin: 0;
+    background-image: linear-gradient(lightgreen, green);
+    margin-top: 0;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+header > p {
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+header > nav {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: auto;
+    width: 850px;
+    background-color: white;
+    box-shadow: 1px 4px 20px black;
+    padding: 25px;
+    text-align: justify;
+}
+
+main > h1 {
+    margin: 0;
+}
+
+main > p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+div#video {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+    height: 350px;
+    width: 100%;
+}
+
+aside {
+    background-color: rgb(57, 197, 120);
+    border-radius: 20px;
+}
+
+aside#aprender_mais > h3 {
+    color: white;
+    background-color: green;
+}
+
+footer {
+    background-color: rgb(1, 70, 1);
+    margin: 0;
+}
+
+footer > p {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
